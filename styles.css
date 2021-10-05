@@ -45,23 +45,6 @@ a:hover{
   filter: drop-shadow(20px 20px 5rem #DA0463);
 }
 
-.drum {
-  outline: none;
-  border: 5px solid #404B69;
-  font-size: 200%;
-  font-family: 'Arvo', cursive;
-  line-height: 0;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
-}
 
 .w {
   background-image: url("images/tom1.png");
@@ -101,6 +84,24 @@ background-image: url("images/snare.png");
   margin: 0% auto;
   padding: 0;
   padding-bottom: 20px;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #404B69;
+  font-size: 200%;
+  font-family: 'Arvo', cursive;
+  line-height: 0;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
 }
 
 .game-over {
