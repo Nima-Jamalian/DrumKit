@@ -15,8 +15,12 @@ footer {
   font-size: 2rem;
   font-family: "Oswald", sans-serif;
   color: #b40051;
-
+  padding-top: 0px;
   /* font-family: sans-serif; */
+}
+
+.footerText{
+margin: 0;
 }
 a{
 
@@ -33,19 +37,19 @@ a:hover{
 }
 .drumKitImg{
  padding: 0;
- width: 60%;
+ width: 40%;
+ transition: all 0.2s ease-in-out;
  filter: drop-shadow(0 0 10rem #DA0463);
+
 }
 
 .drumKitAnimation{
-  filter: drop-shadow(0 0 10rem #b80153);
+  filter: drop-shadow(20px 20px 5rem #DA0463);
 }
 
 .drum {
   outline: none;
-  /* added */
-  /* position: absolute; */
-  border: 10px solid #404B69;
+  border: 5px solid #404B69;
   font-size: 200%;
   font-family: 'Arvo', cursive;
   line-height: 0;
@@ -54,54 +58,52 @@ a:hover{
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
-  /* width: 7%;
-  height: 19%; */
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   text-align: center;
   margin: 10px;
   background-color: white;
 }
 
 .w {
-  /* background-image: url("images/tom1.png"); */
-  /* position: absolute;
-  top:63%;
-    left: 33%;;
-  z-index: 1; */
+  background-image: url("images/tom1.png");
+
 }
 .a {
-  /* background-image: url("images/tom2.png"); */
-  /* position: absolute;
-  top:43%;
-    left: 37%;;
-  z-index: 1; */
+  background-image: url("images/tom2.png");
+
 }
 
 .s {
-  /* background-image: url("images/tom3.png"); */
+  background-image: url("images/tom3.png");
+
 }
 
 .d {
-  /* background-image: url("images/tom4.png"); */
+  background-image: url("images/tom4.png");
+
 }
 
 .j {
-/* background-image: url("images/snare.png"); */
+background-image: url("images/snare.png");
+
 }
 
 .k {
-  /* background-image: url("images/crash.png"); */
+  background-image: url("images/crash.png");
+
 }
 
 .l {
-  /* background-image: url("images/kick.png"); */
+  background-image: url("images/kick.png");
+
 }
 
 .set {
   margin: 0% auto;
   padding: 0;
   padding-bottom: 20px;
+  
 }
 
 .game-over {
