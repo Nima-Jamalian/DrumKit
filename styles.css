@@ -32,9 +32,7 @@ a{
 a:hover{
   color: #DA0463;
 }
-.drumKit{
-  position: relative;
-}
+
 .drumKitImg{
  padding: 0;
  width: 40%;
@@ -103,7 +101,6 @@ background-image: url("images/snare.png");
   margin: 0% auto;
   padding: 0;
   padding-bottom: 20px;
-  
 }
 
 .game-over {
@@ -119,8 +116,6 @@ background-image: url("images/snare.png");
 .red {
   color: red;
 }
-
-
 
 .imgNima{
   width: 1.5rem;
