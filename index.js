@@ -67,5 +67,10 @@ function drumSound(key){
 function buttonAnimation(currentkey){
    var activeButton = document.querySelector("."+ currentkey);
     activeButton.classList.add("pressed");
-    setTimeout(() => {activeButton.classList.remove("pressed");},100);
+    var drumAnimation = document.querySelector(".drumKitImg");
+    drumAnimation.classList.add("drumKitAnimation");
+    setTimeout(() => {
+        activeButton.classList.remove("pressed");
+        drumAnimation.classList.remove("drumKitAnimation");
+    },100);
 }
